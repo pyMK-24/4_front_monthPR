@@ -1,0 +1,196 @@
+/* ========== PHONE CHECKER ========== */
+.phone_block {
+    background: var(--bg-light);
+    padding: 100px 0;
+}
+
+.inner_phone_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid var(--porsche-red);
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    background: var(--white);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.form_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_phone button {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.form_phone label {
+    margin-bottom: 20px;
+}
+
+/* ========== TAB SLIDER ========== */
+.tab_slider {
+    background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+    padding: 100px 0;
+}
+
+.tab_contents_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tab_content_block {
+    width: 700px;
+    border: 2px solid var(--porsche-red);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(224, 33, 26, 0.2);
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab_content_block p {
+    margin-top: 10px;
+    text-align: justify;
+    color: #ddd;
+}
+
+.tab_content_items {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.tab_content_item {
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid var(--porsche-red);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tab_content_item:hover {
+    background: var(--porsche-red);
+    color: #fff;
+}
+
+.tab_content_item_active {
+    background: var(--porsche-red);
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* ========== CONVERTER ========== */
+.converter {
+    padding: 100px 0;
+    background: var(--bg-light);
+}
+
+.inner_converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    background-color: var(--white);
+    border: 2px solid var(--porsche-red);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.inner_converter > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ========== CARD SWITCHER ========== */
+.card_switcher {
+    background-color: #222; 
+    padding: 100px 0;
+}
+
+.inner_card_switcher {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 500px;
+    height: 150px;
+    border: 2px solid var(--porsche-red);
+    /* background-color: var(--bg-light);  */
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3); 
+    color: var(--text-light, #eee); 
+}
+
+.card p {
+    color: var(--porsche-red);
+    font-size: 20px;
+}
+
+.card span {
+    color: var(--text-light, #eee);
+    font-size: 30px;
+}
+
+
+/* ========== WEATHER ========== */
+.weather {
+    padding: 100px 0;
+    background: var(--bg-light);
+}
+
+.inner_weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    background-color: var(--white);
+    border: 2px solid var(--porsche-red);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.inner_weather > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-dark);
+    font-size: 25px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--porsche-red);
+    opacity: 0.2;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lessons</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/lessons.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <h2>Porsche<span></span></h2>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/home_works.html">Home Works</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/lessons.html">Lessons</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/cards.html">Cards</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="phone_block">
+        <div class="container">
+            <h3>Phone checker</h3>
+            <div class="inner_phone_block">
+                <div class="form_phone">
+                    <label for="phone_input">Phone Number</label>
+                    <input type="text" id="phone_input" placeholder="+996 XXX XX-XX-XX">
+                    <button class="btn" id="phone_button">Check number</button>
+                    <span class="checker" id="phone_result"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab_slider">
+        <div class="container">
+            <h3>О Porsche</h3>
+            <div class="inner_tab_slider">
+                <div class="tab_contents_block">
+                    <div class="tab_content_block">
+                        <h4>История Porsche</h4>
+                        <p>Porsche — немецкий производитель спортивных автомобилей, основанный в 1931 году Фердинандом Порше. Бренд стал синонимом инноваций, скорости и высочайшего качества.</p>
+                    </div>
+                    <div class="tab_content_block">
+                        <h4>Технологии</h4>
+                        <p>Инновационные технологии Porsche включают гибридные и электрические силовые установки, передовые системы управления и безопасность на дороге.</p>
+                    </div>
+                    <div class="tab_content_block">
+                        <h4>Модели</h4>
+                        <p>Знаковые модели Porsche — 911, Cayenne, Panamera и Taycan — каждый автомобиль отличается уникальным дизайном и мощностью.</p>
+                    </div>
+                    <div class="tab_content_block">
+                        <h4>Дизайн</h4>
+                        <p>Дизайн Porsche объединяет классические формы с современными аэродинамическими решениями, создавая неповторимый стиль и комфорт.</p>
+                    </div>
+                    <div class="tab_content_block">
+                        <h4>Философия бренда</h4>
+                        <p>Главная философия Porsche — это страсть к совершенству, удовольствие от вождения и сочетание инноваций с традициями.</p>
+                    </div>
+
+                    <div class="tab_content_items">
+                        <div class="tab_content_item tab_content_item_active">История Porsche</div>
+                        <div class="tab_content_item">Технологии</div>
+                        <div class="tab_content_item">Модели</div>
+                        <div class="tab_content_item">Дизайн</div>
+                        <div class="tab_content_item">Философия бренда</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="converter">
+        <div class="container">
+            <h3>CONVERTER</h3>
+            <div class="inner_converter">
+                <div class="som">
+                    <label for="som">Som</label>
+                    <input type="number" id="som">
+                </div>
+                <div class="usd">
+                    <label for="usd">Usd</label>
+                    <input type="number" id="usd">
+                </div>
+                <div class="eur">
+                    <label for="eur">Eur</label>
+                    <input type="number" id="eur">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card_switcher">
+        <div class="container">
+            <h3>Card Switcher</h3>
+            <div class="inner_card_switcher">
+                <button class="btn" id="btn-prev">prev</button>
+                <div class="card"></div>
+                <button class="btn" id="btn-next">next</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="weather">
+        <div class="container">
+            <h3>WEATHER</h3>
+            <div class="inner_weather">
+                <div>
+                    <label>
+                        <input type="text" class="cityName" placeholder="Найти погоду в...">
+                    </label>
+                    <button class="btn" id="search">search</button>
+                </div>
+                <div>
+                    <span class="city"></span>
+                    <hr/>
+                    <span class="temp"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <a href="https://www.instagram.com/porsche/" target="_blank">
+                <div class="inner_footer">
+                    <h2>Made by Porsche</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&#10006;</div>
+                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <label>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                </label>
+                <label>
+                    <input required placeholder="Ваш номер телефона" name="phone" class="modal_input">
+                </label>
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/lesson.js"></script>
+<script src="../js/modal.js"></script>
+</html>

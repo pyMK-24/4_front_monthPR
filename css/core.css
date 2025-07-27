@@ -1,0 +1,141 @@
+/* Variables */
+:root {
+    --porsche-red: #e0211a;
+    --text-dark: #111;
+    --bg-light: #f4f4f4;
+    --bg-medium: #e0e0e0;
+    --white: #fff;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--porsche-red);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Links */
+a {
+    color: var(--porsche-red);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+li {
+    list-style: none;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: var(--porsche-red);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+/* Strong */
+strong {
+    color: var(--porsche-red);
+}
+
+/* Labels */
+label {
+    font-size: 24px;
+    color: var(--porsche-red);
+}
+
+/* Inputs */
+input {
+    background-color: var(--white);
+    color: var(--porsche-red);
+    border: 2px solid var(--porsche-red);
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #b80000;
+    box-shadow: 0 0 5px var(--porsche-red);
+    background-color: var(--white);
+    color: var(--porsche-red);
+}
+
+
+/* Checker */
+.checker {
+    color: var(--porsche-red);
+    font-size: 30px;
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--white);
+    color: var(--porsche-red);
+    border: 2px solid var(--porsche-red);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--porsche-red);
+    color: var(--white);
+}
+
+.btn:active {
+    background: #56585D;
+    border: 2px solid;
+}
+
+.btn-slide {
+    display: block;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.btn-slide:hover {
+    background: var(--porsche-red) !important;
+    cursor: pointer;
+    color: var(--white);
+}
