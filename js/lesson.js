@@ -65,10 +65,6 @@ const autoSliderTabs = () => {
 
 autoSliderTabs();
 
-// DRY - dont repeat yourself
-// KISS - keep it simple, stupid!
-// SOLID - ...
-// BEM - ... 
 
 //convertor - updated
 

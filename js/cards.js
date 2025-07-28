@@ -1,6 +1,7 @@
 const getCards = async () => {
     try {
-        const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+        // const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+        const response = await fetch("../data/cards.json");
         const data = await response.json();
         
         const div_class = document.querySelector(".cards_container");
@@ -9,7 +10,11 @@ const getCards = async () => {
             block.classList.add("card"); 
             block.innerHTML = `
                 <div class="card_container">
-                    <img src="../images/default.png" alt="${element.title}">
+                    <img 
+                        src="${element.photo || '../images/default.png'}" 
+                        alt="${element.title}" 
+                        onerror="this.onerror=null;this.src='../images/default.png';"
+                    >
                     <h5><span class="label">Name:</span> ${element.title}</h5>
                     <p><span class="label">Description:</span> ${element.body}</p>
                 </div>
